@@ -15,7 +15,7 @@ ignore = ["node_modules/"]
 generate_rss = false
 website_title = "Volkan Özen"
 website_descr = "Personal Webpage"
-website_url   = "https://voezen.github.io/"
+website_url   = "https://oezenvolkan.github.io/"
 +++
 
 <!--
