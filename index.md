@@ -1,11 +1,20 @@
 @def title = "Franklin Example"
 @def tags = ["syntax", "code"]
 
-# How to use Franklin
+
+I am a PhD student at the Naturkundemuseum Berlin and Freie Universtiy Berlin. I am working with Dr. David Lazarus as a part of P4 project. I completed my masters under the supervision of Oliver Rahaut at Ludwig Maximilian University Munich. Before that, I got my engineering degree from Istanbul Technical University. Here is my up-to-date CV.
+
+
+My research interests revolve around quantitative plaeobiology, paleoceanography and diatom taxonomy.
+
+
+
+
+<!-- # How to use Franklin
 
 \tableofcontents <!-- you can use \toc as well -->
 
-This section is meant as a refresher if you're new to Franklin.
+<!--This section is meant as a refresher if you're new to Franklin.
 Have a look at both how the website renders and the corresponding markdown (`index.md`).
 Modify at will to get a feeling for how things work!
 
@@ -38,7 +47,7 @@ function len(p::T) where T<:Point
 end
 ```
 
-You can also quote stuff
+<!--You can also quote stuff
 
 > You must have chaos within you to ...
 
@@ -65,7 +74,7 @@ Footnotes are nice too:
 
 ## Basic Franklin extensions
 
-### Divs
+<!--### Divs
 
 It is sometimes useful to have a short way to make a part of the page belong to a div so that it can be styled separately.
 You can do this easily with Franklin by using `@@divname ... @@`.
@@ -96,19 +105,19 @@ $$  \varphi(\E{X}) \le \E{\varphi(X)}. \label{equation blah} $$
 
 since we've given it the label `\label{equation blah}`, we can refer it like so: \eqref{equation blah} which can be convenient for pages that are math-heavy.
 
-In a similar vein you can cite references that would be at the bottom of the page: \citep{noether15, bezanson17}.
+<!--In a similar vein you can cite references that would be at the bottom of the page: \citep{noether15, bezanson17}.
 
 **Note**: the LaTeX commands you define can also incorporate standard markdown (though not in a math environment) so for instance let's define a silly `\bolditalic` command.
 
 \newcommand{\bolditalic}[1]{_**!#1**_} <!--_ ignore this comment, it helps atom to not get confused by the trailing underscore when highlighting the code but is not necessary.-->
 
-and use it \bolditalic{here for example}.
+<!--and use it \bolditalic{here for example}.
 
 Here's another quick one, a command to change the color:
 
 \newcommand{\col}[2]{~~~<span style="color:~~~#1~~~">~~~!#2~~~</span>~~~}
 
-This is \col{blue}{in blue} or \col{#bf37bc}{in #bf37bc}.
+<!--This is \col{blue}{in blue} or \col{#bf37bc}{in #bf37bc}.
 
 ### A quick note on whitespaces
 
@@ -145,7 +154,7 @@ This may be useful for local custom layouts like having a photo next to a text i
 </div>
 ~~~
 
-**Note 1**: again, entire such blocks can be made into latex-like commands via `\newcommand{\mynewblock}[1]{...}`.
+<!--**Note 1**: again, entire such blocks can be made into latex-like commands via `\newcommand{\mynewblock}[1]{...}`.
 
 **Note 2**: whatever is in a raw HTML block is *not* further processed (so you can't have LaTeX in there for instance). A partial way around this is to use `@@...` blocks which *will* be recursively parsed. The following code gives the same result as above with the small difference that there is LaTeX being processed in the inner div.
 
@@ -159,7 +168,7 @@ Marine iguanas are **truly splendid** creatures. They're not found in equations 
 ~~~
 @@
 
-## Pages and structure
+<!--## Pages and structure
 
 Here are a few empty pages connecting to the menu links to show where files can go and the resulting paths. (It's probably best if you look at the source folder for this).
 
@@ -167,21 +176,21 @@ Here are a few empty pages connecting to the menu links to show where files can 
 * [menu 2](/menu2/)
 * [menu 3](/menu3/)
 
-## References (not really)
+<!--## References (not really)
 
 * \biblabel{noether15}{Noether (1915)} **Noether**,  Körper und Systeme rationaler Funktionen, 1915.
 * \biblabel{bezanson17}{Bezanson et al. (2017)} **Bezanson**, **Edelman**, **Karpinski** and **Shah**, [Julia: a fresh approach to numerical computing](https://julialang.org/research/julia-fresh-approach-BEKS.pdf), SIAM review 2017.
 
 ## Header and Footer
 
-As you can see here at the bottom of the page, there is a footer which you may want on all pages but for instance you may want the date of last modification to be displayed.
+<!-- As you can see here at the bottom of the page, there is a footer which you may want on all pages but for instance you may want the date of last modification to be displayed.
 In a fashion heavily inspired by [Hugo](https://gohugo.io), you can write things like
 
 ```html
 Last modified: {{ fill fd_mtime }}.
 ```
 
-(cf. `src/_html_parts/page_foot.html`) which will then replace these braces with the content of a dictionary of variables at the key `fd_mtime`.
+<!-- (cf. `src/_html_parts/page_foot.html`) which will then replace these braces with the content of a dictionary of variables at the key `fd_mtime`.
 This dictionary of variables is accessed locally by pages through `@def varname = value` and globally through the `config.md` page via the same syntax.
 
-There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action.
+There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action. -->
