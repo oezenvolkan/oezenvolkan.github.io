@@ -1,4 +1,4 @@
-Sitemap: https://voezen.github.io/sitemap.xml
+Sitemap: https://oezenvolkan.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
