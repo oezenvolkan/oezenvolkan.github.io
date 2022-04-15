@@ -10,6 +10,8 @@
 ~~~
 <center>
     <img src="assets/coverpage.jpg">
+    width="600" 
+    height="200"
 </center>
 ~~~
 
