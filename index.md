@@ -19,7 +19,7 @@
 
 ~~~
 <div class="image_container">
-    <img id="img_to_fit" src="https://github.com/oezenvolkan/oezenvolkan.github.io/blob/main/_assets/coverpage.jpg"    
+    <img id="img_to_fit" src="https://github.com/oezenvolkan/oezenvolkan.github.io/blob/main/_assets/coverpage.jpg">    
 </div>
 ~~~
 
