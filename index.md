@@ -7,6 +7,7 @@
 </p>
 -->
 
+<!-- 
 ~~~
 <center>
     <img src="assets/coverpage.jpg">
@@ -14,6 +15,11 @@
     height="200"
 </center>
 ~~~
+-->
+
+<div class="image_container">
+    <img id="img_to_fit" src="https://github.com/oezenvolkan/oezenvolkan.github.io/blob/main/_assets/coverpage.jpg" alt="">      
+</div>
 
 
 I am a PhD student at the Naturkundemuseum Berlin and Freie Universtiy Berlin. I am working with Dr. David Lazarus as a part of P4 project. I completed my masters under the supervision of Oliver Rahaut at Ludwig Maximilian University Munich. Before that, I got my engineering degree from Istanbul Technical University. Here is my up-to-date CV.
