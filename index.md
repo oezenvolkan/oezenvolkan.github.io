@@ -2,7 +2,7 @@
 @def tags = ["about"]
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/oezenvolkan/oezenvolkan.github.io/blob/main/_assets/coverpage.jpg">
+  <img width="600" height="200" src="https://github.com/oezenvolkan/oezenvolkan.github.io/blob/main/_assets/coverpage.jpg">
 </p>
 
 
