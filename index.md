@@ -1,5 +1,5 @@
-@def title = "Franklin Example"
-@def tags = ["syntax", "code"]
+@def title = "Volkan Özen"
+@def tags = ["about"]
 
 <p align="center">
   <img width="460" height="300" src=![](/assets/coverpage.jpg)>
