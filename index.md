@@ -2,8 +2,11 @@
 @def tags = ["about"]
 
 <p align="center">
-  <img width="460" height="300" src=![](/assets/coverpage.jpg)>
+  <img width="460" height="300" src="assets/images/coverpage.jpg">
 </p>
+
+
+
 
 I am a PhD student at the Naturkundemuseum Berlin and Freie Universtiy Berlin. I am working with Dr. David Lazarus as a part of P4 project. I completed my masters under the supervision of Oliver Rahaut at Ludwig Maximilian University Munich. Before that, I got my engineering degree from Istanbul Technical University. Here is my up-to-date CV.
 
@@ -11,7 +14,7 @@ I am a PhD student at the Naturkundemuseum Berlin and Freie Universtiy Berlin. I
 My research interests revolve around quantitative plaeobiology, paleoceanography and diatom taxonomy.
 
 
-
+<!-- ![](/assets/coverpage.jpg) -->
 
 <!-- # How to use Franklin
 
