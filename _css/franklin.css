@@ -16,11 +16,23 @@
 "Verdana","Helvetica Neue",Helvetica,Arial,sans-serif;
 ================================================================== */
 
+
+/*
 html {
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
+*/
+
+
+body {
+ font-family:"Verdana","Helvetica Neue",Helvetica,Arial,sans-serif;
+ line-height:1.5;
+ font-size:100%
+}
+
+
 
 /* ==================================================================
     BASIC GRID FOR PROFILE PIC
