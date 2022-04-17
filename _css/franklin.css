@@ -17,7 +17,7 @@
 ================================================================== */
 
 html {
-  font-family: Verdana, Helvetica Neue, sans-serif;
+  font-family: "Verdana", Helvetica Neue, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
