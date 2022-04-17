@@ -25,7 +25,7 @@ html {
 
 
 
-body {
+html {
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
