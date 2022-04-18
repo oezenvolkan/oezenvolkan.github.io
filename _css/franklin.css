@@ -262,15 +262,21 @@ td {
 ================================================================== */
 
 .franklin-content img {
-  width: 97%;
+  width: 70%;
   text-align: auto;
-  padding-left: 0%;
+  padding-left: 15%;
 }
 
 .franklin-content .img-small img {
   width: 50%;
   text-align: center;
   padding-left: 20%;
+}
+
+.im-200 {text-align: center;}
+.im-200 img {
+    padding: 0;
+    width: 97%;
 }
 
 /* ==================================================================
